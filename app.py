@@ -1,3 +1,5 @@
+#A simple Flask app with login/logout functionality using sessions
+
 from flask import Flask, request, redirect, url_for, session, Response
 
 app = Flask(__name__)
